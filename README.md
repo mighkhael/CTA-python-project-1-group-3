@@ -1,5 +1,5 @@
 # CTA-python-project-1
-This is the first CTA Python programming project for Cohort 8.0 for Group 2
+This is the first CTA Python programming project for Cohort 8.0 for Group 3
 Project Title: Student Grade Management System.
 Description: A Student Grade management system using Python Programming language that has the following functionalities:
 . Register Student and their courses with initial grade of 0 for each courses

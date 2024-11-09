@@ -22,7 +22,7 @@ def register_student(name, courses):
         if newly_registered_courses:
             print(f"Updated courses for '{name}' with initial grades: {all_courses_with_grades}.")
         if already_registered_courses:
-            print(f"Student '{name}' is already registered in courses: {" ".join(already_registered_courses)}.")
+            print(f"Student '{name}' is already registered in courses: {' '.join(already_registered_courses)}.")
             
     else:											# Register new student with all courses and initial grades
         students_file[name] = {course: 0 for course in courses}

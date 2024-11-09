@@ -24,16 +24,3 @@ def display_course_averages():
             print(f"The course: {course} has no registered grade")       
 
 display_course_averages()
-
-
-
-#Function to display all students and their grades
-
-def display_all_student_grades():
-    for name, courses in functions.students_file.items():
-        grades = ",   ".join([f"{course}: {grade}" for course, grade in courses.items()])
-        print(f"{name}'s grades = {grades}")
-
-display_all_student_grades() 
-
-
